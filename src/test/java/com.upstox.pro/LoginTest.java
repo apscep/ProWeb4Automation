@@ -2,7 +2,7 @@ package com.upstox.pro;
 
 import ActionsRepository.GetProperty;
 import ActionsRepository.LoginPageActions;
-import io.qameta.allure.Step;
+import org.junit.Assert;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -27,6 +27,7 @@ LoginPageActions lpa = new LoginPageActions();
     @DisplayName("Check ability of user enter special characters in 2FA")
     void userCanEnterSpecialCharactersIn2Fa (){
         lpa.enterInputYob(GetProperty.loadProperty("specialCharacters"));
-        Assertions.assertEquals("", lpa.getYobAtribute());
+        //Assertions.assertEquals("", lpa.getYobAtribute());
+        Assert.assertTrue(lpa.checkInputYob());
     }
 }

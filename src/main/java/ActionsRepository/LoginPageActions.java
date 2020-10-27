@@ -5,6 +5,8 @@ import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import io.qameta.allure.Step;
 
+import java.util.Objects;
+
 public class LoginPageActions extends BasePageActions {
 
   public  LoginPageActions open(){
@@ -39,5 +41,8 @@ public class LoginPageActions extends BasePageActions {
     @Step("Get yob atribute")
     public String getYobAtribute(){return lp.yobField().getAttribute("value");}
 
+    @Step("Get yob atribute")
+    public boolean checkInputYob(){
+         return Objects.requireNonNull(lp.yobField().getAttribute("value")).isEmpty();}
 
 }

@@ -8,7 +8,7 @@ public abstract class  BaseTest  {
     static {
         Configuration.baseUrl = "http://localhost:8282";
         Configuration.browser = "chrome";
-        Configuration.screenshots = false;
+        Configuration.screenshots = true;
         Configuration.savePageSource = false;
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide().screenshots(true).savePageSource(false));
         Configuration.startMaximized = true;
