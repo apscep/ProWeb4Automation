@@ -1,4 +1,4 @@
-package com.upstox.pro;
+package your.project.name;
 
 import ActionsRepository.GetProperty;
 import ActionsRepository.LoginPageActions;

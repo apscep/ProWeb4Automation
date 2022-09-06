@@ -1,4 +1,4 @@
-package com.upstox.pro;
+package your.project.name;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
