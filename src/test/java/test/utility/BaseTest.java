@@ -1,4 +1,4 @@
-package your.project.name;
+package test.utility;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
@@ -9,9 +9,10 @@ public abstract class  BaseTest  {
         Configuration.baseUrl = "http://localhost:8282";
         Configuration.browser = "chrome";
         Configuration.screenshots = true;
+        Configuration.startMaximized = true;
         Configuration.savePageSource = false;
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide().screenshots(true).savePageSource(false));
-        Configuration.startMaximized = true;
+
     }
 
 

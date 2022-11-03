@@ -1,9 +1,7 @@
 package ActionsRepository;
 
-import PageRepository.LoginPage;
+import PageRepository.SerCheckPage;
 
-public class BasePageActions {
-   public LoginPage lp = new LoginPage();
-
-
+public class BasePageActions  {
+   public SerCheckPage scp =new SerCheckPage();
 }

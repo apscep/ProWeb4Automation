@@ -5,12 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84e0e9ef-5be8-4f3c-b3af-b189f74d04ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ActionsRepository/SerPageActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageRepository/SerCheckPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/technical/task/FreeGeoIpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/technical/task/StaleElementExceptionSolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/technical/task/SwitchTabTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/technical/task/UlnoadSiteTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com.upstox.pro/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/your/project/name/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com.upstox.pro/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/your/project/name/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ActionsRepository/BasePageActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ActionsRepository/BasePageActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ActionsRepository/GetProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ActionsRepository/GetProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ActionsRepository/LoginPageActions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageRepository/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/your/project/name/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/utility/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/your/project/name/LoginTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +58,28 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1j8O0zNDudnKGl1D7XGnib8ZdmL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -78,7 +101,7 @@
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Pro-Web-4-Automation [allureServe]">
+  <component name="RunManager" selected="Gradle.SwitchTabTest.openGoogleSwitchToNewTab">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -92,7 +115,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FreeGeoIpTesting.checkLatitudeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="env">
+          <map>
+            <entry key="apiKey" value="4e7697607150263d039cc356b51cd238" />
+            <entry key="configIp" value="77.137.68.211" />
+          </map>
+        </option>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;technical.task.FreeGeoIpTesting.checkLatitudeTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="StaleElementExceptionSolutionTest.checkAndCatchSer" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -105,7 +157,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;your.project.name.LoginTest&quot;" />
+            <option value="&quot;technical.task.StaleElementExceptionSolutionTest.checkAndCatchSer&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -115,7 +167,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTest.userCanLoginWithValidCredentialsOpen2Fa" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StaleElementExceptionSolutionTest.handleSerException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -128,7 +180,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;your.project.name.LoginTest.userCanLoginWithValidCredentialsOpen2Fa&quot;" />
+            <option value="&quot;technical.task.StaleElementExceptionSolutionTest.handleSerException&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -138,83 +190,66 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Pro-Web-4-Automation [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StaleElementExceptionSolutionTest.userCanLoginWithValidCredentialsOpen2Fa" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="allureServe" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;technical.task.StaleElementExceptionSolutionTest.userCanLoginWithValidCredentialsOpen2Fa&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Pro-Web-4-Automation [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SwitchTabTest.openGoogleSwitchToNewTab" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="clean" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;technical.task.SwitchTabTest.openGoogleSwitchToNewTab&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="Pro-Web-4-Automation [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.LoginTest" />
-      <item itemvalue="Gradle.Pro-Web-4-Automation [allureServe]" />
-      <item itemvalue="Gradle.Pro-Web-4-Automation [clean]" />
-      <item itemvalue="Gradle.Pro-Web-4-Automation [test]" />
-      <item itemvalue="Gradle.LoginTest.userCanLoginWithValidCredentialsOpen2Fa" />
+      <item itemvalue="Gradle.StaleElementExceptionSolutionTest.userCanLoginWithValidCredentialsOpen2Fa" />
+      <item itemvalue="Gradle.StaleElementExceptionSolutionTest.checkAndCatchSer" />
+      <item itemvalue="Gradle.StaleElementExceptionSolutionTest.handleSerException" />
+      <item itemvalue="Gradle.FreeGeoIpTesting.checkLatitudeTest" />
+      <item itemvalue="Gradle.SwitchTabTest.openGoogleSwitchToNewTab" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Pro-Web-4-Automation [allureServe]" />
-        <item itemvalue="Gradle.LoginTest" />
-        <item itemvalue="Gradle.LoginTest.userCanLoginWithValidCredentialsOpen2Fa" />
-        <item itemvalue="Gradle.Pro-Web-4-Automation [test]" />
-        <item itemvalue="Gradle.Pro-Web-4-Automation [clean]" />
+        <item itemvalue="Gradle.SwitchTabTest.openGoogleSwitchToNewTab" />
+        <item itemvalue="Gradle.FreeGeoIpTesting.checkLatitudeTest" />
+        <item itemvalue="Gradle.StaleElementExceptionSolutionTest.checkAndCatchSer" />
+        <item itemvalue="Gradle.StaleElementExceptionSolutionTest.handleSerException" />
+        <item itemvalue="Gradle.StaleElementExceptionSolutionTest.userCanLoginWithValidCredentialsOpen2Fa" />
       </list>
     </recent_temporary>
   </component>
@@ -233,6 +268,14 @@
       <workItem from="1603353387124" duration="5206000" />
       <workItem from="1603363643624" duration="2552000" />
     </task>
+    <task id="LOCAL-00001" summary="update project">
+      <created>1662478061261</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662478061261</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,5 +296,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+    <MESSAGE value="update project" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>

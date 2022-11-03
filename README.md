@@ -1,6 +1,12 @@
-1. To run tests use command :test --tests "your.project.name.LoginTest"
+1. To run tests use command : test --tests "technical.task*"
 2. To run reports allureServe
 3. Page objects store in Page Repository
 4. Page actions store in Page Repository
-5. Base url in the base class
-6. Test data stores in the test.properties
+
+1.To check SER task, go to StaleElementExceptionSolutionTest
+
+2.To run api tests you must run command "gradle test --tests "technical.task.FreeGeoIpTest.checkLatitudeTest" configIp=yourIp;apiKey=yourKey"
+Or set default values in the GetProperty class, or set in IDE in enviromental variables
+
+
+
